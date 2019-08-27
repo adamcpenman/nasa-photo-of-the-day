@@ -1,0 +1,14 @@
+.navbar { 
+   margin-top: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none; 
+    padding-left: 20px;
+    padding-right: 10px;
+}
