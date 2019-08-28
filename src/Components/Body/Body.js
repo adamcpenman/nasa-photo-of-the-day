@@ -10,6 +10,7 @@ function Body(props) {
               <h3>Picture of the Day</h3>
               <img id="mainPicture" src={props.pic} alt="Random"/>
           </div>
+          <div className="infoBox">
           <div className="info">
               <div className="picTitle">
               <h2>Title: {props.title}</h2>
@@ -21,6 +22,7 @@ function Body(props) {
                   </p>
               </div>
         </div>
+            </div>
     </div>
   );
 

@@ -5,8 +5,8 @@ import axios from "axios";
 
 //Importing all components
 import Body from "./Components/Body/Body";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
 import NavBar from "./Components/NavBar/NavBar";
 
 
