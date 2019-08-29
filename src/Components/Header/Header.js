@@ -1,6 +1,11 @@
 import React, { useState, useEffect} from "react";
 import axios from "axios";
 import Clock from 'react-live-clock';
+import styled from 'styled-components';
+
+const Header2 = styled.h2`
+color: #D3AE71;
+`
 
 function Header(props) {
     const [dateHeader, setDateHeader] = useState();
@@ -13,7 +18,7 @@ useEffect(()=> {
   }, [])
 return (
     <div>
-        <h2> Time: <Clock format={'h:mm:ssa'} ticking={true} timezone={'US/Central'} /> </h2>
+        <Header2> Time: <Clock format={'h:mm:ssa'} ticking={true} timezone={'US/Central'} /> </Header2>
         <h2> Date: {dateHeader} </h2>
     </div>
     );
