@@ -6,6 +6,9 @@ import styled from 'styled-components';
 const Header2 = styled.h2`
 color: #D3AE71;
 `
+const HeadeR2 = styled.h2`
+color: #E7AD59;
+`
 
 function Header(props) {
     const [dateHeader, setDateHeader] = useState();
@@ -18,8 +21,8 @@ useEffect(()=> {
   }, [])
 return (
     <div>
-        <Header2> Time: <Clock format={'h:mm:ssa'} ticking={true} timezone={'US/Central'} /> </Header2>
-        <h2> Date: {dateHeader} </h2>
+        <Header2> <Clock format={'h:mm:ssa'} ticking={true} timezone={'US/Central'} /> </Header2>
+        <HeadeR2>  Date: {dateHeader} </HeadeR2>
     </div>
     );
 }

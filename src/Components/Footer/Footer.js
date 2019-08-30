@@ -1,5 +1,26 @@
 import React from "react";
-import "./Footer.css"
+import styled from 'styled-components';
+import { Spinner } from 'reactstrap';
+
+const MainNav = styled.div`
+margin-top: 20px;
+margin-bottom: 20px;
+border-top: 1px solid #28515E;
+
+`
+
+const NavStyles = styled.nav`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+`
+
+const AnchorStyles = styled.a`
+    text-decoration: none; 
+    padding-left: 30px;
+    padding-right: 20px;
+`
 
 function Footer() {
     function handleClick(e) {
@@ -9,15 +30,18 @@ function Footer() {
 
     return (
         <div className="navbarF">
-            <nav className="navF"> 
-                <a href="#" onClick={handleClick}>HOME</a>
-                <a href="#" onClick={handleClick}>NASA</a>
-                <a href="#" onClick={handleClick}>ABOUT US</a>
-                <a href="#" onClick={handleClick}>CONTACT</a>
-            </nav>
+             <MainNav>
+             <NavStyles/>
+             <Spinner style={{ color: '#77384C', width: '3rem', height: '3rem' }} type="grow" />
+                <AnchorStyles href="#" onClick={handleClick}>HOME</AnchorStyles>
+                <AnchorStyles href="#" onClick={handleClick}>NASA</AnchorStyles>
+                <AnchorStyles href="#" onClick={handleClick}>ABOUT US</AnchorStyles>
+                <AnchorStyles href="#" onClick={handleClick}>CONTACT</AnchorStyles>
+                <Spinner style={{ color: '#77384C', width: '3rem', height: '3rem' }} type="grow" />
+            <NavStyles/>
+             </MainNav>
         </div>
     )
-    
 }
 
 export default Footer;
