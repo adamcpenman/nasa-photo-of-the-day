@@ -4,7 +4,7 @@ import { Spinner } from 'reactstrap';
 
 const MainNav = styled.div`
 margin-top: 20px;
-margin-bottom: 20px;
+// margin-bottom: 20px;
 border-top: 1px solid #28515E;
 
 `
@@ -32,12 +32,12 @@ function Footer() {
         <div className="navbarF">
              <MainNav>
              <NavStyles/>
-             <Spinner style={{ color: '#77384C', width: '3rem', height: '3rem' }} type="grow" />
+             <Spinner style={{ color: '#F0F7F4', width: '.5rem', height: '.5rem' }} type="grow" />
                 <AnchorStyles href="#" onClick={handleClick}>HOME</AnchorStyles>
                 <AnchorStyles href="#" onClick={handleClick}>NASA</AnchorStyles>
                 <AnchorStyles href="#" onClick={handleClick}>ABOUT US</AnchorStyles>
                 <AnchorStyles href="#" onClick={handleClick}>CONTACT</AnchorStyles>
-                <Spinner style={{ color: '#77384C', width: '3rem', height: '3rem' }} type="grow" />
+                <Spinner style={{ color: '#F0F7F4', width: '.5rem', height: '.5rem' }} type="grow" />
             <NavStyles/>
              </MainNav>
         </div>
