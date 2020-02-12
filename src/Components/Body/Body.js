@@ -11,7 +11,9 @@ border-radius: 7px
 const H2 = styled.h2`
 margin-top: 20px;
 margin-bottom: 10px;
-color: #B6C3E7;
+color: #8E9AAF;
+font-family: 'Space Mono', monospace;
+font-family: 'Gayathri', sans-serif;
 `
 
 const Paragraph = styled.p`
@@ -32,7 +34,7 @@ function Body(props) {
     return (
         <div className="bodyContainer">
             <div className="pictureElement">
-                <h3>Picture of the Day</h3>
+                <H2> Picture of the Day</H2>
                 <MainImg id="mainPicture" src={props.pic} alt="Random"></MainImg>
             </div>
 

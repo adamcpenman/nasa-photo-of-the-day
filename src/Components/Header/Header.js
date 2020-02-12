@@ -4,10 +4,10 @@ import Clock from 'react-live-clock';
 import styled from 'styled-components';
 
 const Header2 = styled.h2`
-color: #D3AE71;
+color: #0B3142;
 `
 const HeadeR2 = styled.h2`
-color: #E7AD59;
+color: #0B3142;
 `
 
 function Header(props) {

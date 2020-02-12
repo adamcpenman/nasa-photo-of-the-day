@@ -28,12 +28,12 @@ function NavBar() {
         <div>
             <MainNav>
             <NavStyles/>
-                <Spinner style={{ color: '#77384C', width: '3rem', height: '3rem' }} type="grow" />
+                <Spinner style={{ color: '#F0F7F4', width: '.5rem', height: '.5rem' }} type="grow" />
                 <AnchorStyles href="#">HOME</AnchorStyles>
                 <AnchorStyles href="#">NASA</AnchorStyles>
                 <AnchorStyles href="#">ABOUT US</AnchorStyles>
                 <AnchorStyles href="#">CONTACT</AnchorStyles>
-                <Spinner style={{ color: '#77384C', width: '3rem', height: '3rem' }} type="grow" />
+                <Spinner style={{ color: '#F0F7F4', width: '.5rem', height: '.5rem' }} type="grow" />
             
             <NavStyles/>
             </MainNav>
